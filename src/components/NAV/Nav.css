@@ -1,0 +1,25 @@
+.nav_header{
+ width: 100%;
+ height: 5.5rem;
+ border-bottom: 0.2rem solid #f1f1f1;
+ padding: 0 2rem;
+ display: flex;
+ justify-content: space-between;
+}
+.logo{
+ padding: 1.5rem 0;
+}
+.nav_ul{
+ list-style: none;
+ display: flex;
+flex-flow: nowrap;
+}
+.nav_ul li{
+ padding: 1.8rem 1rem;
+}
+
+@media screen and (max-width: 768px){
+.nav_ul{
+  flex-flow: column nowrap;
+ }
+}
