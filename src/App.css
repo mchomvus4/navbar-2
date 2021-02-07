@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  min-height: 10vh;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background:  #808e9b ;
+  color: #fff;
+
+}
+nav .logo{
+  font-size: 2rem;
+}
+nav .nav-links{
+display: flex;
+justify-content: space-around;
+width: 32%;
+}
+
+nav .nav-links a{
+  font-size: 1rem;
+   cursor: pointer;
+}
+nav .nav-links a:hover{
+  color: #1e272e;
+ 
+}
+nav .burger{
+font-size: 2rem;
+display: none;  
+cursor: pointer;
+}
+@media all and (max-width: 1023px){
+nav .burger{
+  display: block;
+}
+nav .nav-links{
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background: #b4bfc9;
+  padding: 3rem;
+  width: 50%;
+  transform: translateX(-50rem);
+  transition: 0.5s ease-in-out;
+
+}
+nav .nav-links li{
+padding: 2rem;
+border-bottom: 0.1rem solid #ccc;
+}
+nav .nav-links li:last-of-type{
+  border-bottom: 0rem solid #ccc;
+}
+nav .nav-links a:hover{
+  border-bottom: 0rem solid #fff;
+}
+}
