@@ -5,6 +5,7 @@ import About from '../../components/Pages/About'
 import Project from '../../components/Pages/Project'
 import SignIn from '../../components/Pages/SignIn'
 import SignUp from '../../components/Pages/SignUp'
+import NotFound from '../../components/Pages/NotFound'
 import logo from '../../images/logo.png'
 import Footer from './Footer'
 import './Styles.css'
@@ -32,6 +33,7 @@ const Navbar = () => {
       <Route path='/project' component={Project}/>
       <Route  path='/login' component={SignIn}/>
       <Route path='/register' component={SignUp}/>
+      <Route path='*' component={NotFound}/>
     </Switch>
     </Router>
     <Footer/>
