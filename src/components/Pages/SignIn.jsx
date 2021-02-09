@@ -3,7 +3,7 @@ import React from 'react'
 const SignIn = () => {
   return (
     <div>
-      This is login page
+     Login to our page if you have an account
     </div>
   )
 }

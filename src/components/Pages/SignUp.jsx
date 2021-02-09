@@ -3,7 +3,7 @@ import React from 'react'
 const SignUp = () => {
   return (
     <div>
-      This is signup page
+      If you don't have an account create one from here
     </div>
   )
 }
