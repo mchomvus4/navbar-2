@@ -19,9 +19,11 @@ nav{
   align-items: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  background:  #808e9b ;
+  background:  #1e272e ;
   color: #fff;
-
+}
+.nav-li{
+  color: #fff;
 }
 nav .logo{
   font-size: 2rem;
@@ -37,7 +39,7 @@ nav .nav-links a{
    cursor: pointer;
 }
 nav .nav-links a:hover{
-  color: #1e272e;
+  color: #808e9b;
  
 }
 nav .burger{
@@ -72,4 +74,8 @@ nav .nav-links li:last-of-type{
 nav .nav-links a:hover{
   border-bottom: 0rem solid #fff;
 }
+}
+
+@media screen and (max-width: 320px){
+  
 }
